@@ -1,0 +1,192 @@
+:root{
+    --primarynColor:#DCDCDC;
+    --secondaryColor:#fff;
+    --hightlightColor:#F3BF99;
+    --btnColor:#5093E2;
+    --bgColor:#23252C;
+    --footerColor:#161619;
+    --bodyColor:#1A1B21;
+    --subtitleColor:#F5F5F5;
+    --socialBtnColor:#918E9B;
+}
+
+
+
+
+body {
+    font-family: Inter;
+    font-size: 16px;
+    background-color:var(--bgColor);
+    color:var(--primarynColor);
+}
+
+.main-container
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bodyColor);
+     max-width: 400px;
+     margin:3em auto;
+      border-radius:10px;
+
+}
+
+.container
+{
+  
+    width: 400px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:10px;
+    overflow: hidden;
+   
+}
+
+.profile-pict
+{  
+   width: 100%;
+   object-fit: cover;
+   object-position: left 5% top 10% ;
+    height: 317px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.txt-name
+{
+    color:#fff;
+    font-size:2rem;
+    font-weight:700;
+    margin-top:.50em;
+    margin-bottom: 0;
+}
+
+.txt-job
+{
+    font-size: 1.1rem;
+    color:var(--hightlightColor);
+    margin:0;
+}
+
+
+.txt-website
+{
+    text-decoration: none;
+    color:var(--primarynColor);
+    font-size:0.95rem;
+    padding:0.02em;
+    margin:1em;
+
+}
+
+.txt-website:hover
+{
+    color:var(--btnColor);
+}
+
+.txt-job,
+.txt-website,
+.txt{
+    font-weight: 400;
+}
+
+.btn
+{   display:inline-block;
+    padding:.50em 1.3em;
+    font-size:1.3rem;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius:10px;
+    margin:0 0.5em;
+    cursor: pointer;
+    
+}
+
+.btn-email
+{
+    background-color: var(--secondaryColor);
+    color:#374151;
+}
+
+.btn-email:hover,
+.btn-email:focus,
+.btn-social:hover,
+.btn-social:focus{
+    background-color: #374151;
+    color:var(--secondaryColor);
+}
+
+.btn-linkedin
+{
+    background-color:var(--btnColor);
+    color:var(--secondaryColor);
+}
+
+.btn-linkedin:hover,
+.btn-linkedin:focus{
+    background-color:var(--secondaryColor);
+    color:var(--btnColor);
+}
+
+.icon{
+    margin:0 0.3em;
+}
+
+.container-header
+{
+    margin-bottom:0.80em;
+}
+
+.container-body
+{
+    align-items: flex-start;
+    margin-left:4em;
+    padding:1em;
+}
+
+.subtitle
+{
+    color:var(--subtitleColor);
+    font-weight: 700;
+    margin-bottom:0;
+}
+
+.txt
+{   
+    margin-top:0.50em;
+    font-size:1rem;
+    line-height: 15.36px;
+    width: 83%;
+}
+
+.container-footer
+{
+    flex-direction: row;
+    justify-content: center;
+    margin-top:1.5em;
+   padding:1em;
+   background-color: var(--footerColor) ;
+   width: 92%;
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+   
+}
+
+.btn-social
+{
+    display:inline-block;
+    background-color: var(--socialBtnColor);
+    color:black;;
+    padding:0.5em;
+    border-radius:5px;
+    margin-right:.80em;
+    font-size:1.5rem;
+}
+
+.btn-social:last-child
+{
+    margin-right:0;
+}
+
