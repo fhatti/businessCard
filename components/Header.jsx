@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import ProfilePic from "../assets/profile-pic.png";
 export default function Header()
 {
     return(
